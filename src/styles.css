@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+}
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.shoppingCard {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemImage {
+  width: 200px;
+}
+
+.addButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: green;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.cartWrapper {
+  border: 1px solid;
+  margin: 10px 0;
+}
+
+.cartItems {
+  width: 100%;
+}
+
+.cartRow {
+  text-align: center;
+  width: 20%;
+}
+
+.removeButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: red;
+  color: #fff;
+  padding: 5px 10px;
+}
